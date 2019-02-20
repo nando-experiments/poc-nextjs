@@ -1,0 +1,31 @@
+{
+  "name": "poc-nextjs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "now --public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandomoreirame/poc-nextjs.git"
+  },
+  "keywords": [],
+  "author": "Fernando Moreira <nandomoreira.me@gmail.com> (https://nandomoreira.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nandomoreirame/poc-nextjs/issues"
+  },
+  "homepage": "https://github.com/nandomoreirame/poc-nextjs#readme",
+  "dependencies": {
+    "@zeit/next-stylus": "^1.0.1",
+    "next": "^8.0.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "stylus": "^0.54.5"
+  }
+}
